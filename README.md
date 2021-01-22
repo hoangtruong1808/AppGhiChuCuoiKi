@@ -1,7 +1,11 @@
 <h1>Ứng dụng Smart Note - sổ tay điện tử</h1>
 
-Ứng dụng Smart Note giúp mọi người ghi chú mọi lúc mọi nơi, hữu ích cho mục địch quản lý kế hoạch, lịch trình, thời gian biểu cũng như sắp xếp công việc hàng ngày
-<h2>1. Chức năng</h2>
+Ứng dụng Smart Note giúp mọi người ghi chú mọi lúc mọi nơi, hữu ích cho mục địch quản lý kế hoạch, lịch trình, thời gian biểu, ghi âm cũng như sắp xếp công việc hàng ngày
+<div>
+<img src="./img/manhinhmenu.jpg" width=270px height=560px />
+</div>
+<h2>
+1. Chức năng</h2>
     <div><p>- Đăng nhập, đăng kí</p>
     <img src="./img/manhinhdangnhap.jpg" width=270px height=560px />
     <img src="./img/manhinhdangky.jpg" width=270px height=560px />
@@ -48,9 +52,8 @@ Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
-<<<<<<< HEAD
 limitations under the License. 
 	</code>
 =======
 limitations under the License. </code>
->>>>>>> 203a13f867ee6c61b15e01c3bdf7c03be48ab517
+
