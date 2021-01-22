@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ff00"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật ghi chú"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/id_titleSuaGhiChu_edt"
+        android:layout_marginTop="10dp"
+        android:hint="Tiêu đề"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/id_contentSuaGhiChu_edt"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/botron_edittext"
+        android:gravity="top"
+        android:hint="Nội dung"></EditText>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/id_xacNhanSuaGhiChu_btn"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_tick"
+            android:layout_gravity="center"
+            android:text=" Xác Nhận"
+            android:layout_width="wrap_content"
+            android:background="@drawable/my_button_bg"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:layout_marginLeft="25dp"
+            android:id="@+id/id_huySuaGhiChu_btn"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_close"
+            android:layout_gravity="center"
+            android:text=" Huỷ"
+            android:layout_width="wrap_content"
+            android:background="@drawable/my_button_bg"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

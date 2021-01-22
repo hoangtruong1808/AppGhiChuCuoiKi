@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ff00"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật danh mục"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/id_titleSuaDanhMuc_edt"
+        android:layout_marginTop="10dp"
+        android:hint="Tiêu đề"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <ListView
+        android:id="@+id/id_noiDungDanhMuc_listView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+    </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/id_themNDDM_btn"
+            android:padding="10dp"
+            android:src="@drawable/ic_add"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/my_button_bg"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content">
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/id_xacNhanSuaDanhMuc_btn"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_tick"
+            android:layout_gravity="center"
+            android:text=" Xác Nhận"
+            android:layout_width="wrap_content"
+            android:background="@drawable/my_button_bg"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/id_huySuaDanhMuc_btn"
+            android:layout_marginLeft="25dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_close"
+            android:layout_gravity="center"
+            android:text=" Huỷ"
+            android:layout_width="wrap_content"
+            android:background="@drawable/my_button_bg"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

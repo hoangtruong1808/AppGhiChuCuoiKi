@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "992257880471",
+    "firebase_url": "https://bigexcercise.firebaseio.com",
+    "project_id": "bigexcercise",
+    "storage_bucket": "bigexcercise.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992257880471:android:5fd32d40f2f1ba479294d2",
+        "android_client_info": {
+          "package_name": "com.example.bigexcersice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992257880471-4pmdp1fkq52c77bjilhkvp4f4ajh370b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bigexcersice",
+            "certificate_hash": "094c6a403e6e65561b6361c3d19a21b0184d433a"
+          }
+        },
+        {
+          "client_id": "992257880471-jn7mstn1bdo729bt8orgifo52upusp5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJxF1MuO2utPU-SiuX38CgrdVpDgdSars"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992257880471-jn7mstn1bdo729bt8orgifo52upusp5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

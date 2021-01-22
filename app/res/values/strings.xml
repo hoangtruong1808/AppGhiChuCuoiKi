@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sổ Tay Điện Tử</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Đăng nhập bằng zalo-->
+    <string name="appID">245268365091968048</string>
+
+    <!--Đăng nhập bằng facebook-->
+    <string name="facebook_app_id">1163383187371114</string>
+    <string name="fb_login_protocol_scheme">fb1163383187371114</string>
+    <string name="txtRegis"><u><i>Chưa có tài khoản? Đăng ký</i></u></string>
+    <string name="adsID">ca-app-pub-5690068557816579~9170121939</string>
+    <string name="adsBaner">ca-app-pub-5690068557816579/2764495688</string>
+</resources>

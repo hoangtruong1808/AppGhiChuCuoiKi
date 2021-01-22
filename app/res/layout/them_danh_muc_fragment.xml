@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#ff00"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Thêm danh mục"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/id_title_danhMuc_edt"
+        android:layout_marginTop="10dp"
+        android:hint="Tiêu đề"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <LinearLayout
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/id_content_danh_muc_chb"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content">
+        </CheckBox>
+        <EditText
+            android:id="@+id/id_content_danhMuc_edt"
+            android:hint="Nội dung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:id="@+id/id_themND_btn"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:layout_gravity="right"
+        android:text=" Thêm"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/my_button_bg"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content">
+    </Button>
+    <ListView
+        android:id="@+id/id_danhMuc_listView"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"></ListView>
+
+    <Button
+        android:id="@+id/id_themDM_btn"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_add"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text=" Xác nhận"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/my_button_bg"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content">
+    </Button>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/adsBaner">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>
