@@ -44,16 +44,17 @@
     <a href="https://install.appcenter.ms/users/hoangtruong1808-gmail.com/apps/smart-note/distribution_groups/test">https://install.appcenter.ms/users/hoangtruong1808-gmail.com/apps/smart-note/distribution_groups/test</a>
 <h2>6. Giấy phép: </h2>
 	<code> Copyright 2014
-Licensed under the Apache License, Version 2.0 (the "License");
+<span>Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+You may obtain a copy of the License at</span>
+
 http://www.apache.org/licenses/LICENSE-2.0 
-Unless required by applicable law or agreed to in writing, software
+
+<span>Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
-limitations under the License. 
+limitations under the License. </span>
 	</code>
-=======
-limitations under the License. </code>
+
 
